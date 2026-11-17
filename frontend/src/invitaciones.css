@@ -1,0 +1,46 @@
+
+/* NALÚ LUXE - INVITACIONES ADMINISTRATIVAS */
+
+.nalu-invitation-result {
+  margin-top: 30px;
+  padding: 24px;
+  border: 1px solid #e6d6de;
+  border-radius: 12px;
+  background: #fff8fb;
+}
+
+.nalu-invitation-result h3 {
+  margin-top: 0;
+  color: #75495a;
+}
+
+.nalu-invitation-result label {
+  display: block;
+  margin: 20px 0 10px;
+  color: #75495a;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.nalu-invitation-result textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px;
+  border: 1px solid #e8d0dc;
+  border-radius: 8px;
+  background: white;
+  color: #6a4b59;
+  font-family: monospace;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+  resize: vertical;
+}
+
+.nalu-invitation-result .btn {
+  margin: 15px 0;
+}
+
+.nalu-invitation-result p {
+  overflow-wrap: anywhere;
+  line-height: 1.7;
+}

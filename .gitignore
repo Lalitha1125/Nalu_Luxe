@@ -1,0 +1,75 @@
+# ==========================================
+# NALU LUXE - GITIGNORE
+# ==========================================
+
+# CREDENCIALES Y CONFIGURACION PRIVADA
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# ARCHIVOS CON SECRETOS LOCALES
+application-local.properties
+application-local.yml
+application-local.yaml
+application-secret.properties
+application-secret.yml
+application-secret.yaml
+
+# DEPENDENCIAS FRONTEND
+node_modules/
+frontend/node_modules/
+
+# COMPILACIONES REACT
+dist/
+frontend/dist/
+.vite/
+
+# COMPILACIONES JAVA
+target/
+backend/target/
+*.class
+
+# LOGS
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# RESPALDOS Y REPORTES LOCALES
+respaldos/
+reportes/
+backups/
+backup/
+tmp/
+temp/
+
+# VOLCADOS DE BASE DE DATOS
+*.dump
+*.bak
+*.sql.gz
+*.sql.zip
+*backup*.sql
+*respaldo*.sql
+
+# ARCHIVOS TEMPORALES
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# COBERTURA
+coverage/

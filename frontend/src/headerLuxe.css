@@ -1,0 +1,410 @@
+
+/* ============================================
+   NALÚ LUXE - PREMIUM HEADER
+   ============================================ */
+
+/* BARRA SUPERIOR */
+
+.nl-announcement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  min-height: 29px;
+  padding: 7px 15px;
+  background: #af6b89;
+  color: #fff9f5;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.nl-announcement svg {
+  color: #efcb91;
+  flex-shrink: 0;
+}
+
+/* ENCABEZADO PRINCIPAL */
+
+.nl-header {
+  position: relative;
+  z-index: 30;
+  border-bottom: 1px solid #f1e1e7;
+  background: rgba(255, 250, 251, 0.97);
+  box-shadow: 0 8px 27px rgba(102, 61, 79, 0.04);
+}
+
+.nl-header-content {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  min-height: 100px;
+  max-width: 1510px;
+}
+
+/* LOGO: CONSERVAMOS SU ESTILO ORIGINAL */
+
+.nl-header-brand {
+  flex-shrink: 0;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.nl-header-brand:hover {
+  opacity: 0.88;
+}
+
+/* NAVEGACIÓN Y ÁREA DE SESIÓN */
+
+.nl-header-nav {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+  gap: 22px;
+}
+
+.nl-header-nav-links {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+  gap: clamp(12px, 1.25vw, 25px);
+  min-width: 0;
+}
+
+.nl-header-nav-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  color: #745362;
+  font-family: "Montserrat", "Segoe UI", sans-serif;
+  font-size: clamp(13px, 0.85vw, 15px);
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  white-space: nowrap;
+  text-decoration: none;
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.nl-header-nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  border-radius: 2px;
+  background: #b56888;
+  transform: translateX(-50%);
+  transition: width 0.2s ease;
+}
+
+.nl-header-nav-link:hover,
+.nl-header-nav-link.nl-header-link-active {
+  color: #ad5579;
+}
+
+.nl-header-nav-link:hover::after,
+.nl-header-nav-link.nl-header-link-active::after {
+  width: 65%;
+}
+
+/* INICIAR SESIÓN Y REGISTRARSE A LA DERECHA */
+
+.nl-header-auth {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  gap: 12px;
+}
+
+.nl-header-login,
+.nl-header-register,
+.nl-header-admin,
+.nl-header-account,
+.nl-header-logout {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 41px;
+  padding: 0 16px;
+  border-radius: 7px;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.nl-header-login {
+  border: 1px solid #d8afc0;
+  background: transparent;
+  color: #a65377;
+}
+
+.nl-header-login:hover {
+  background: #fff0f5;
+}
+
+.nl-header-register {
+  border: 1px solid #ad577c;
+  background: #ad577c;
+  color: #fff;
+  box-shadow: 0 4px 11px rgba(173, 87, 124, 0.15);
+}
+
+.nl-header-register:hover {
+  background: #924366;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.nl-header-admin {
+  border: 1px solid #ddc9a8;
+  background: #fff9ed;
+  color: #9b7140;
+}
+
+.nl-header-account {
+  border: 1px solid #eed8e1;
+  background: #fff8fb;
+  color: #a65377;
+}
+
+.nl-header-logout {
+  border: 0;
+  background: transparent;
+  color: #a75378;
+}
+
+.nl-header-logout:hover {
+  background: #fff0f5;
+}
+
+/* ICONOS DEL LADO DERECHO */
+
+.nl-header-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.nl-header-icon-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  color: #a65377;
+  text-decoration: none;
+  transition:
+    border-color 0.2s ease,
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.nl-header-icon-button:hover {
+  border-color: #efd4df;
+  background: #fff0f5;
+  transform: translateY(-1px);
+}
+
+.nl-header-cart-count {
+  position: absolute;
+  top: -3px;
+  right: -4px;
+  display: grid;
+  place-items: center;
+  min-width: 19px;
+  height: 19px;
+  padding: 0 4px;
+  border: 2px solid #fffafb;
+  border-radius: 50px;
+  background: #af557a;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.nl-header-mobile-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 43px;
+  height: 43px;
+  border: 1px solid #e8d4dd;
+  border-radius: 9px;
+  background: #fff;
+  color: #a65377;
+  cursor: pointer;
+}
+
+/* PANTALLAS INTERMEDIAS */
+
+@media (max-width: 1450px) {
+  .nl-header-content {
+    gap: 16px;
+  }
+
+  .nl-header-brand {
+    margin-right: 0;
+  }
+
+  .nl-header-nav {
+    gap: 12px;
+  }
+
+  .nl-header-nav-links {
+    gap: 11px;
+  }
+
+  .nl-header-auth {
+    gap: 7px;
+  }
+
+  .nl-header-login,
+  .nl-header-register,
+  .nl-header-admin,
+  .nl-header-account,
+  .nl-header-logout {
+    padding: 0 11px;
+  }
+}
+
+/* MENÚ RESPONSIVE */
+
+@media (max-width: 1180px) {
+  .nl-header-content {
+    min-height: 80px;
+    justify-content: space-between;
+  }
+
+  .nl-header-nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 18px;
+    padding: 25px max(20px, calc((100vw - 1100px) / 2));
+    border-bottom: 1px solid #efdae3;
+    background: #fffafb;
+    box-shadow: 0 20px 35px rgba(84, 50, 67, 0.11);
+  }
+
+  .nl-header-nav.nl-header-nav-open {
+    display: flex;
+  }
+
+  .nl-header-nav-links {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .nl-header-nav-link {
+    justify-content: flex-start;
+    padding: 9px 12px;
+    font-size: 14px;
+  }
+
+  .nl-header-nav-link::after {
+    display: none;
+  }
+
+  .nl-header-nav-link.nl-header-link-active {
+    border-radius: 7px;
+    background: #f9e7ee;
+  }
+
+  .nl-header-auth {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-top: 18px;
+    border-top: 1px solid #f0dfe5;
+  }
+
+  .nl-header-mobile-toggle {
+    display: inline-flex;
+  }
+}
+
+/* CELULARES */
+
+@media (max-width: 600px) {
+  .nl-announcement {
+    gap: 7px;
+    font-size: 8px;
+    letter-spacing: 0.8px;
+  }
+
+  .nl-announcement svg {
+    width: 11px;
+  }
+
+  .nl-header-content {
+    min-height: 73px;
+    gap: 10px;
+  }
+
+  .nl-header-brand {
+    margin-right: auto;
+  }
+
+  .nl-header-actions {
+    gap: 3px;
+  }
+
+  .nl-header-icon-button {
+    width: 37px;
+    height: 37px;
+  }
+
+  .nl-header-nav {
+    padding: 20px;
+  }
+
+  .nl-header-nav-links {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .nl-header-nav-link {
+    font-size: 13px;
+  }
+
+  .nl-header-auth {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .nl-header-auth > * {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nl-header * {
+    transition: none !important;
+  }
+}

@@ -1,0 +1,708 @@
+
+/* ============================================
+   NALÚ LUXE - MIS PEDIDOS
+   ============================================ */
+
+.nalu-orders-page {
+  min-height: 85vh;
+  padding: 35px 0 90px;
+  background:
+    radial-gradient(
+      circle at 5% 20%,
+      rgba(223, 242, 236, 0.45),
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at 95% 30%,
+      rgba(249, 222, 232, 0.45),
+      transparent 40%
+    ),
+    #fffafa;
+}
+
+.nalu-orders-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 30px;
+}
+
+/* ENCABEZADO */
+
+.nalu-orders-heading {
+  max-width: 650px;
+  margin: 15px auto 48px;
+  text-align: center;
+}
+
+.nalu-orders-heading-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+  height: 65px;
+  margin: 0 auto 20px;
+  border: 1px solid #efdce4;
+  border-radius: 50%;
+  background: #fff;
+  color: #ac6684;
+}
+
+.nalu-orders-heading .eyebrow {
+  display: block;
+  margin-bottom: 14px;
+}
+
+.nalu-orders-heading h1 {
+  margin: 0 0 15px;
+  color: #704858;
+  font-size: clamp(37px, 5vw, 54px);
+  font-weight: 500;
+}
+
+.nalu-orders-heading p {
+  color: #927c85;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+/* TARJETAS ESTADÍSTICAS */
+
+.nalu-orders-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin: 0 0 45px;
+}
+
+.nalu-orders-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  gap: 12px;
+  padding: 25px;
+  border: 1px solid #f0e1e6;
+  border-radius: 13px;
+  background: #fff;
+  box-shadow: 0 6px 25px rgba(111, 72, 87, 0.045);
+}
+
+.nalu-orders-stat-icon {
+  display: grid;
+  place-items: center;
+  width: 43px;
+  height: 43px;
+  border-radius: 12px;
+  background: #fae8ef;
+  color: #a65d7b;
+}
+
+.nalu-orders-stat > span {
+  color: #927b85;
+  font-size: 12px;
+}
+
+.nalu-orders-stat > strong {
+  color: #704858;
+  font-size: 29px;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
+.nalu-orders-stat .nalu-orders-money {
+  font-size: 23px;
+}
+
+/* CABECERA DEL HISTORIAL */
+
+.nalu-orders-list-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 23px;
+}
+
+.nalu-orders-list-heading h2 {
+  margin: 8px 0 0;
+  color: #704858;
+  font-size: 28px;
+}
+
+.nalu-orders-list-heading .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+}
+
+/* LISTA DE PEDIDOS */
+
+.nalu-orders-list {
+  display: grid;
+  gap: 28px;
+}
+
+.nalu-order-card {
+  overflow: hidden;
+  border: 1px solid #ebd8e0;
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 9px 32px rgba(110, 69, 84, 0.06);
+}
+
+/* CABECERA DE CADA PEDIDO */
+
+.nalu-order-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 27px 32px;
+  border-bottom: 1px solid #f3e5ea;
+}
+
+.nalu-order-header-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 17px;
+  min-width: 0;
+}
+
+.nalu-order-number-icon {
+  display: grid;
+  place-items: center;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #f9e8ef;
+  color: #af6482;
+}
+
+.nalu-order-header-info {
+  min-width: 0;
+}
+
+.nalu-order-overline {
+  color: #b27089;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.nalu-order-header-info h2 {
+  margin: 8px 0 12px;
+  color: #6f4858;
+  font-size: 19px;
+  overflow-wrap: anywhere;
+}
+
+.nalu-order-date {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: #927d85;
+  font-size: 12px;
+}
+
+.nalu-order-header-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 14px;
+  flex-shrink: 0;
+}
+
+.nalu-order-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 14px;
+  border-radius: 30px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.nalu-order-status-active {
+  color: #9a6b2f;
+  background: #fff4df;
+}
+
+.nalu-order-status-delivered {
+  color: #3d8060;
+  background: #e9f6ef;
+}
+
+.nalu-order-header-total {
+  color: #704858;
+  font-size: 26px;
+}
+
+/* SEGUIMIENTO */
+
+.nalu-order-tracking {
+  padding: 28px 32px 25px;
+  background: #fffbfc;
+}
+
+.nalu-order-tracking-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 29px;
+}
+
+.nalu-order-tracking-title h3 {
+  margin: 9px 0 0;
+  color: #704858;
+  font-size: 20px;
+}
+
+.nalu-order-step-count {
+  padding: 7px 12px;
+  border-radius: 20px;
+  background: #f8e9ef;
+  color: #a65f7e;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.nalu-order-progress {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.nalu-order-progress-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  text-align: center;
+  color: #b8a7ae;
+}
+
+.nalu-order-progress-circle {
+  display: grid;
+  place-items: center;
+  width: 43px;
+  height: 43px;
+  border: 1px solid #e9dfe3;
+  border-radius: 50%;
+  background: white;
+  color: #b8a7ae;
+}
+
+.nalu-order-progress-step strong {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.nalu-order-progress-step small {
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+.nalu-order-progress-step.completed {
+  color: #a45d7b;
+}
+
+.nalu-order-progress-step.completed
+.nalu-order-progress-circle {
+  border-color: #b96d8c;
+  background: #b96d8c;
+  color: white;
+}
+
+.nalu-order-progress-step.current
+.nalu-order-progress-circle {
+  box-shadow: 0 0 0 5px #f8e5ed;
+}
+
+.nalu-order-progress-bar {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 7px;
+  margin: 20px 0;
+}
+
+.nalu-order-progress-bar span {
+  height: 6px;
+  border-radius: 20px;
+  background: #eee3e7;
+}
+
+.nalu-order-progress-bar span.filled {
+  background: #b96d8c;
+}
+
+.nalu-order-tracking-note {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 0;
+  color: #987d89;
+  font-size: 11px;
+  text-align: center;
+}
+
+/* PRODUCTOS */
+
+.nalu-order-section {
+  padding: 25px 32px 12px;
+}
+
+.nalu-order-section-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 17px;
+  border-bottom: 1px solid #f2e6ea;
+}
+
+.nalu-order-section-title h3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  color: #75495a;
+  font-size: 18px;
+}
+
+.nalu-order-section-title h3 svg {
+  color: #b56b89;
+}
+
+.nalu-order-section-title > span {
+  color: #987f89;
+  font-size: 12px;
+}
+
+.nalu-order-products {
+  display: grid;
+}
+
+.nalu-order-product {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 0;
+  border-bottom: 1px solid #f7edf0;
+}
+
+.nalu-order-product-icon {
+  display: grid;
+  place-items: center;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #fae8ef, #eaf6f0);
+  color: #a65f7d;
+}
+
+.nalu-order-product-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.nalu-order-product-info h4 {
+  margin: 0 0 8px;
+  color: #75495a;
+  font-size: 15px;
+}
+
+.nalu-order-product-info p {
+  margin: 0;
+  color: #957f88;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.nalu-order-product > strong {
+  color: #75495a;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+/* VALORES */
+
+.nalu-order-summary {
+  padding: 15px 32px 25px;
+}
+
+.nalu-order-summary > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 11px 0;
+  color: #8d7680;
+  font-size: 13px;
+}
+
+.nalu-order-summary > div strong {
+  color: #75495a;
+}
+
+.nalu-order-summary .nalu-order-summary-total {
+  margin-top: 8px;
+  padding-top: 20px;
+  border-top: 1px solid #eadbe1;
+  color: #75495a;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.nalu-order-summary-total strong {
+  font-size: 23px;
+}
+
+/* DETALLES EXPANDIBLES */
+
+.nalu-order-expand-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 19px;
+  border: none;
+  border-top: 1px solid #f2e3e9;
+  background: #fff9fb;
+  color: #a35a78;
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.nalu-order-expand-button:hover {
+  background: #fbedf2;
+}
+
+.nalu-order-extra {
+  display: grid;
+  gap: 20px;
+  padding: 26px 32px;
+  border-top: 1px solid #f2e3e9;
+}
+
+.nalu-order-extra-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+}
+
+.nalu-order-extra-item > svg {
+  flex-shrink: 0;
+  color: #b66b88;
+}
+
+.nalu-order-extra-item strong {
+  color: #75495a;
+  font-size: 13px;
+}
+
+.nalu-order-extra-item p {
+  margin: 7px 0 0;
+  color: #8d7781;
+  font-size: 13px;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+
+.nalu-order-payment-note {
+  margin: 0;
+  color: #927c85;
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+/* ESTADOS VACÍOS Y PIE */
+
+.nalu-orders-loading,
+.nalu-orders-empty,
+.nalu-orders-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 50px 25px;
+  border: 1px solid #f0dfe6;
+  border-radius: 15px;
+  background: white;
+  text-align: center;
+}
+
+.nalu-orders-loading svg,
+.nalu-orders-empty svg,
+.nalu-orders-footer svg {
+  color: #b66b88;
+}
+
+.nalu-orders-empty h2,
+.nalu-orders-footer h3 {
+  margin: 0;
+  color: #704858;
+  font-size: 25px;
+}
+
+.nalu-orders-empty p,
+.nalu-orders-footer p {
+  max-width: 470px;
+  margin: 0;
+  color: #927c85;
+  line-height: 1.8;
+  font-size: 13px;
+}
+
+.nalu-orders-footer {
+  margin-top: 35px;
+  padding: 38px 25px;
+  background: linear-gradient(135deg, #fff, #fff1f6);
+}
+
+.nalu-orders-footer .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1000px) {
+  .nalu-orders-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 650px) {
+  .nalu-orders-page {
+    padding: 25px 0 65px;
+  }
+
+  .nalu-orders-heading {
+    margin-bottom: 32px;
+  }
+
+  .nalu-orders-stats {
+    gap: 10px;
+  }
+
+  .nalu-orders-stat {
+    padding: 16px;
+  }
+
+  .nalu-orders-stat > strong {
+    font-size: 24px;
+  }
+
+  .nalu-orders-stat .nalu-orders-money {
+    font-size: 19px;
+  }
+
+  .nalu-orders-list-heading {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nalu-order-card-header {
+    flex-direction: column;
+    padding: 22px 20px;
+  }
+
+  .nalu-order-header-right {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nalu-order-header-info h2 {
+    font-size: 14px;
+  }
+
+  .nalu-order-header-total {
+    font-size: 22px;
+  }
+
+  .nalu-order-tracking {
+    padding: 25px 16px;
+  }
+
+  .nalu-order-tracking-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .nalu-order-progress {
+    gap: 4px;
+  }
+
+  .nalu-order-progress-circle {
+    width: 37px;
+    height: 37px;
+  }
+
+  .nalu-order-progress-step strong {
+    font-size: 10px;
+  }
+
+  .nalu-order-progress-step small {
+    font-size: 9px;
+  }
+
+  .nalu-order-tracking-note {
+    align-items: flex-start;
+  }
+
+  .nalu-order-section {
+    padding: 22px 18px 8px;
+  }
+
+  .nalu-order-section-title h3 {
+    font-size: 15px;
+  }
+
+  .nalu-order-product {
+    gap: 10px;
+  }
+
+  .nalu-order-product-icon {
+    width: 45px;
+    height: 45px;
+  }
+
+  .nalu-order-product-info h4 {
+    font-size: 13px;
+  }
+
+  .nalu-order-product > strong {
+    font-size: 12px;
+  }
+
+  .nalu-order-summary {
+    padding: 12px 18px 22px;
+  }
+
+  .nalu-order-extra {
+    padding: 22px 18px;
+  }
+}
+
+@media (max-width: 390px) {
+  .nalu-orders-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .nalu-order-progress-step small {
+    display: none;
+  }
+}

@@ -1,0 +1,190 @@
+NALU LUXE - ASIGNACIÓN DE FOTOGRAFÍAS
+===================================
+
+
+ANILLOS
+Encontradas: 14
+Asignadas: 10
+
+ANI-001 -> Anillo de aguamarina sobre satén rosa-2.png
+Imagen web: /joyas/catalogo/anillos/anillo-01.png
+Nombre: Anillo de aguamarina
+
+ANI-002 -> Anillo de esmeralda rosa sobre terciopelo-9.png
+Imagen web: /joyas/catalogo/anillos/anillo-02.png
+Nombre: Anillo de esmeralda rosa
+
+ANI-003 -> Anillo de oro rosa con aquamarina-1.png
+Imagen web: /joyas/catalogo/anillos/anillo-03.png
+Nombre: Anillo de oro rosa con aquamarina
+
+ANI-004 -> Anillo de oro sobre pedestal rosa-1.png
+Imagen web: /joyas/catalogo/anillos/anillo-04.png
+Nombre: Anillo de oro
+
+ANI-005 -> Anillo de plata con gema rosa-7.png
+Imagen web: /joyas/catalogo/anillos/anillo-05.png
+Nombre: Anillo de plata con gema rosa
+
+ANI-006 -> Anillo dorado abierto con perla y turquesa-6.png
+Imagen web: /joyas/catalogo/anillos/anillo-06.png
+Nombre: Anillo dorado abierto con perla y turquesa
+
+ANI-007 -> Anillo dorado con turquesas entre flores-5.png
+Imagen web: /joyas/catalogo/anillos/anillo-07.png
+Nombre: Anillo dorado con turquesas entre flores
+
+ANI-008 -> Anillo dorado floral sobre satén rosa-2.png
+Imagen web: /joyas/catalogo/anillos/anillo-08.png
+Nombre: Anillo dorado floral
+
+ANI-009 -> Anillo dorado sobre terciopelo rosa-3.png
+Imagen web: /joyas/catalogo/anillos/anillo-09.png
+Nombre: Anillo dorado
+
+ANI-010 -> Anillo infinito de oro blanco con diamantes-10.png
+Imagen web: /joyas/catalogo/anillos/anillo-10.png
+Nombre: Anillo infinito de oro blanco con diamantes
+
+IMÁGENES CONSERVADAS SIN ASIGNAR:
+- Anillo trenzado con gema rosa-8.png
+- Imagen de ChatGPT 16 nov 2026, 08_50_19 p.m-1.png
+- Imagen de ChatGPT 16 nov 2026, 08_50_20 p.m-2.png
+- Imagen de ChatGPT 16 nov 2026, 08_50_21 p.m-3.png
+
+ARETES
+Encontradas: 10
+Asignadas: 10
+
+ARE-001 -> Aretes de oro con cristales sobre turquesa-4.png
+Imagen web: /joyas/catalogo/aretes/arete-01.png
+Nombre: Aretes de oro con cristales
+
+ARE-002 -> Aretes de oro rosa con cristales lavanda-12.png
+Imagen web: /joyas/catalogo/aretes/arete-02.png
+Nombre: Aretes de oro rosa con cristales lavanda
+
+ARE-003 -> Pendientes dorados con flores brillantes-5.png
+Imagen web: /joyas/catalogo/aretes/arete-03.png
+Nombre: Pendientes dorados con flores brillantes
+
+ARE-004 -> Pendientes Dorados con Gotas de Cristal-6.png
+Imagen web: /joyas/catalogo/aretes/arete-04.png
+Nombre: Pendientes Dorados con Gotas de Cristal
+
+ARE-005 -> Pendientes dorados con perlas sobre fondo pastel-11.png
+Imagen web: /joyas/catalogo/aretes/arete-05.png
+Nombre: Pendientes dorados con perlas
+
+ARE-006 -> Pendientes Florales de Aguamarina sobre Acrílico Rosa-13.png
+Imagen web: /joyas/catalogo/aretes/arete-06.png
+Nombre: Pendientes Florales de Aguamarina
+
+ARE-007 -> Pendientes Monstera Dorados con Esmalte Turquesa-14.png
+Imagen web: /joyas/catalogo/aretes/arete-07.png
+Nombre: Pendientes Monstera Dorados con Esmalte Turquesa
+
+ARE-008 -> Imagen de ChatGPT 16 nov 2026, 08_50_22 p.m-4.png
+Imagen web: /joyas/catalogo/aretes/arete-08.png
+Nombre: (conservar nombre actual)
+
+ARE-009 -> Imagen de ChatGPT 16 nov 2026, 08_50_23 p.m-5.png
+Imagen web: /joyas/catalogo/aretes/arete-09.png
+Nombre: (conservar nombre actual)
+
+ARE-010 -> Imagen de ChatGPT 16 nov 2026, 09_51_56 p.m-4.png
+Imagen web: /joyas/catalogo/aretes/arete-10.png
+Nombre: (conservar nombre actual)
+
+
+COLLARES
+Encontradas: 10
+Asignadas: 10
+
+COL-001 -> Collar dorado con colgante de nácar-9.png
+Imagen web: /joyas/catalogo/collares/collar-01.png
+Nombre: Collar dorado con colgante de nácar
+
+COL-002 -> Collar Dorado con Trébol de Nácar sobre Rosa-9.png
+Imagen web: /joyas/catalogo/collares/collar-02.png
+Nombre: Collar Dorado con Trébol de Nácar
+
+COL-003 -> Collares Dorados sobre Fondo Rosa-7.png
+Imagen web: /joyas/catalogo/collares/collar-03.png
+Nombre: Collares Dorados
+
+COL-004 -> Collares Dorados sobre Satén Rosa-8.png
+Imagen web: /joyas/catalogo/collares/collar-04.png
+Nombre: Collares Dorados
+
+COL-005 -> Imagen de ChatGPT 16 nov 2026, 08_50_24 p.m-6.png
+Imagen web: /joyas/catalogo/collares/collar-05.png
+Nombre: (conservar nombre actual)
+
+COL-006 -> Imagen de ChatGPT 16 nov 2026, 08_50_25 p.m-7.png
+Imagen web: /joyas/catalogo/collares/collar-06.png
+Nombre: (conservar nombre actual)
+
+COL-007 -> Imagen de ChatGPT 16 nov 2026, 08_50_27 p.m-10.png
+Imagen web: /joyas/catalogo/collares/collar-07.png
+Nombre: (conservar nombre actual)
+
+COL-008 -> Imagen de ChatGPT 16 nov 2026, 09_51_54 p.m-1.png
+Imagen web: /joyas/catalogo/collares/collar-08.png
+Nombre: (conservar nombre actual)
+
+COL-009 -> Imagen de ChatGPT 16 nov 2026, 09_51_55 p.m-2.png
+Imagen web: /joyas/catalogo/collares/collar-09.png
+Nombre: (conservar nombre actual)
+
+COL-010 -> Imagen de ChatGPT 16 nov 2026, 09_51_56 p.m-3.png
+Imagen web: /joyas/catalogo/collares/collar-10.png
+Nombre: (conservar nombre actual)
+
+
+PULSERAS
+Encontradas: 11
+Asignadas: 10
+
+PUL-001 -> Brazalete abierto de oro rosa con gemas relucientes-7.png
+Imagen web: /joyas/catalogo/pulseras/pulsera-01.png
+Nombre: Brazalete abierto de oro rosa con gemas relucientes
+
+PUL-002 -> Brazalete dorado con detalles rosados-1.png
+Imagen web: /joyas/catalogo/pulseras/pulsera-02.png
+Nombre: Brazalete dorado con detalles rosados
+
+PUL-003 -> Pulsera de eslabones con gema rosa-8.png
+Imagen web: /joyas/catalogo/pulseras/pulsera-03.png
+Nombre: Pulsera de eslabones con gema rosa
+
+PUL-004 -> Pulsera de Turquesa y Perlas-6.png
+Imagen web: /joyas/catalogo/pulseras/pulsera-04.png
+Nombre: Pulsera de Turquesa y Perlas
+
+PUL-005 -> Pulsera Dorada de Estrellas y Lunas-4.png
+Imagen web: /joyas/catalogo/pulseras/pulsera-05.png
+Nombre: Pulsera Dorada de Estrellas y Lunas
+
+PUL-006 -> Pulsera dorada de flor sobre terciopelo aqua-10.png
+Imagen web: /joyas/catalogo/pulseras/pulsera-06.png
+Nombre: Pulsera dorada de flor
+
+PUL-007 -> Pulsera Dorada de Flores Brillantes-11.png
+Imagen web: /joyas/catalogo/pulseras/pulsera-07.png
+Nombre: Pulsera Dorada de Flores Brillantes
+
+PUL-008 -> Pulsera Dorada en Fondo Turquesa-12.png
+Imagen web: /joyas/catalogo/pulseras/pulsera-08.png
+Nombre: Pulsera Dorada
+
+PUL-009 -> Pulsera Turquesa con Encanto Dorado-5.png
+Imagen web: /joyas/catalogo/pulseras/pulsera-09.png
+Nombre: Pulsera Turquesa con Encanto Dorado
+
+PUL-010 -> Imagen de ChatGPT 16 nov 2026, 08_50_25 p.m-8.png
+Imagen web: /joyas/catalogo/pulseras/pulsera-10.png
+Nombre: (conservar nombre actual)
+
+IMÁGENES CONSERVADAS SIN ASIGNAR:
+- Imagen de ChatGPT 16 nov 2026, 08_50_26 p.m-9.png

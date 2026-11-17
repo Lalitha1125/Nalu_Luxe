@@ -1,0 +1,130 @@
+
+/* NALÚ LUXE - ADMINISTRACIÓN DEL CATÁLOGO */
+
+.nalu-catalog-admin {
+  min-width: 0;
+}
+
+.nalu-catalog-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.nalu-catalog-form-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.nalu-catalog-close {
+  display: grid;
+  place-items: center;
+  padding: 8px;
+  border: 0;
+  background: transparent;
+  color: #985a70;
+  cursor: pointer;
+}
+
+.nalu-catalog-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 19px;
+}
+
+.nalu-catalog-form > div {
+  min-width: 0;
+}
+
+.nalu-catalog-form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #704858;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.nalu-catalog-form input,
+.nalu-catalog-form select,
+.nalu-catalog-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 14px;
+  border: 1px solid #ead5de;
+  border-radius: 7px;
+  background: #fffbfc;
+  color: #654b57;
+  font: inherit;
+  font-size: 13px;
+}
+
+.nalu-catalog-form input:focus,
+.nalu-catalog-form select:focus,
+.nalu-catalog-form textarea:focus {
+  outline: 2px solid #e3b6c8;
+  outline-offset: 1px;
+}
+
+.nalu-catalog-form small {
+  display: block;
+  margin-top: 6px;
+  color: #88717a;
+  font-size: 11px;
+}
+
+.nalu-catalog-form .nalu-catalog-wide {
+  grid-column: 1 / -1;
+}
+
+.nalu-catalog-form .nalu-catalog-check {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.nalu-catalog-check input {
+  width: auto;
+  accent-color: #b96d8c;
+}
+
+.nalu-catalog-product {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 170px;
+}
+
+.nalu-catalog-product img {
+  width: 54px;
+  height: 54px;
+  object-fit: cover;
+  border-radius: 8px;
+  background: #f8eaf0;
+}
+
+.nalu-catalog-product svg {
+  color: #b96d8c;
+}
+
+.nalu-catalog-product span {
+  font-weight: 600;
+}
+
+@media (max-width: 700px) {
+  .nalu-catalog-form {
+    grid-template-columns: 1fr;
+  }
+
+  .nalu-catalog-form .nalu-catalog-wide {
+    grid-column: auto;
+  }
+
+  .nalu-catalog-buttons {
+    width: 100%;
+  }
+}

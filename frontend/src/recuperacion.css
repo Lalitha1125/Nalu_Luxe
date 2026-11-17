@@ -1,0 +1,20 @@
+
+/* NALÚ LUXE - RECUPERACIÓN DE CUENTA */
+
+.auth-forgot-link {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+.auth-forgot-link a {
+  color: #a45778;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.auth-forgot-link a:hover {
+  text-decoration: underline;
+}
